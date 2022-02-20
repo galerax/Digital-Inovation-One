@@ -1,51 +1,88 @@
-#body{margin: auto; max-width: 900px; background: #f6f6f6;}
-#slide-col{text-align: center; margin-top: 32px;}
-
-#slide-show-div{
-	max-width: 200px;
- 	position: absolute;
- 	z-index: -1;
- 	margin-top: -470px;
- 	margin-left: 205px;
- }
-
- #block-container-1{
- 	border: gray solid 1px;
- 	max-width: 80%;
- 	background: white;
- 	border-color: #e1e1e1
- }
-
- #name-logo-img{max-width: 70%; margin-bottom: 20px;}
-
- input{margin-bottom: 5px;}
- button{width: 100%;}
-
-#or-txt{text-align: center; margin-top: 10px;}
-
-#a-face{text-decoration: none; color: black;}
-#ico-face{max-width: 12px; max-height: 12px;}
-#a-forget-pass{font-size: 12px; text-decoration: none; color: black;}
-
-#block-container-2{
-	border: #e1e1e1 solid 1px;
-	max-width: 80%;
-	margin-top: 10px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background: white;
+#body {
+  margin: auto;
+  max-width: 900px;
+  background: #f6f6f6;
+}
+#slide-col {
+  text-align: center;
+  margin-top: 32px;
 }
 
-#a-sign-up{text-decoration: none;}
-
-#block-container-3{
-	max-width: 80%;
-	margin-top: 5px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border: none;
+#slide-show-div {
+  max-width: 200px;
+  position: absolute;
+  z-index: -1;
+  margin-top: -470px;
+  margin-left: 205px;
 }
 
-#get-app-txt{margin-bottom: 20px;}
+#block-container-1 {
+  border: gray solid 1px;
+  max-width: 80%;
+  background: white;
+  border-color: #e1e1e1;
+}
 
-.store-btn{width: 100%;}
+#name-logo-img {
+  max-width: 70%;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 5px;
+}
+button {
+  width: 100%;
+}
+
+#or-txt {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#a-face {
+  text-decoration: none;
+  color: black;
+}
+#ico-face {
+  max-width: 12px;
+  max-height: 12px;
+}
+#a-forget-pass {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+#block-container-2 {
+  border: #e1e1e1 solid 1px;
+  max-width: 80%;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: white;
+}
+
+#a-sign-up {
+  text-decoration: none;
+}
+
+#block-container-3 {
+  max-width: 80%;
+  margin-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+}
+
+#get-app-txt {
+  margin-bottom: 20px;
+}
+
+#phoneArtNonClickableArea {
+  pointer-events: none;
+}
+
+.store-btn {
+  width: 100%;
+}
