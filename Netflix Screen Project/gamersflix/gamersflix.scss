@@ -1,0 +1,38 @@
+@import "colors.scss";
+
+#body {
+  margin: auto;
+
+  background-color: $black;
+}
+
+.navbar {
+  background-color: $black;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: $red-light;
+}
+
+.navbar-link {
+  color: $white;
+  text-align: left;
+}
+
+.navbar-link:hover {
+  color: $red-light;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: $red-light;
+  color: $white;
+}
+.navbar-toggler {
+  color: $white;
+}
+
+.navbar-toggler:hover {
+  color: $white;
+}

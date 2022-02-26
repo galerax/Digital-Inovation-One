@@ -1,0 +1,37 @@
+#body {
+  margin: auto;
+  background-color: #000000;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #db0000;
+}
+
+.navbar-link {
+  color: #ffffff;
+  text-align: left;
+}
+
+.navbar-link:hover {
+  color: #db0000;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #db0000;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+}
+
+.navbar-toggler:hover {
+  color: #ffffff;
+}
+/*# sourceMappingURL=gamersflix.css.map */
